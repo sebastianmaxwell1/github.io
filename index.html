@@ -10,86 +10,88 @@
 </head>
 <body>
     <div id="header" class="section">
-        <img alt="logo" class="img-circle" src="./Assets/maxwell_headshot copy.jpeg"> 
-        <p>Coming Soon</p>
         <div class="header">
             <h1>Sebastian Maxwell</h1>
             <ul class="nav nav-pills justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about-me.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about-me.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
+                </li>
             </ul>
         </div>
+        </div>
 
-    </div>
+        <div class="float-container">
+            <div class="float-child">
+                <img class="img-circle" src="./Assets/maxwell_headshot copy.jpeg">
+            </div>
+            <div class="float-child">
+                <div class="about-section">
+                    <h1><span>About Me</span></h1>
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p class="quote">~ Sebastian M</p>
+                </div>
+            </div>
+        </div>
+        <div class="comp-pro">
+            <h1><span>Completed Projects</span></h1>
+            <h2><span>You can view more completed projects by clicking here <a href="projects.html" class="btn btn-primary">Projects</a></span></h2>
+        </div>
     <div class="section">
-        <h1><span>About Me</span></h1>
-        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <p class="quote">~ Sebastian M</p>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="./Assets/Screen Shot 2021-10-26 at 7.40.32 PM.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">devCodeCamp Capstone Project</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="./Assets/rappawp.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Rappa Realty Group WordPress</h5>
+                <p class="card-text">This is the live Rappa Realty Group website. It was made with WordPress so that IDx was supported!</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="./Assets/covawp.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Cova Floor Coatings WordPress</h5>
+                <p class="card-text">This is a live website that a local flooring company needed done quickly!</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                </div>
+            </div>
+            </div>
     </div>
-    <div class="section" id="res">
-        <h1><span>Completed Projects</span></h1>
-        <h2><span>You can view more completed projects by clicking here <a href="projects.html" class="btn btn-primary">Projects</a></span></h2>
-        <div class="row">
-            <div class="col-sm">
-              <div class="card" style="width: 18rem;">
-                <img src="./Assets/Screen Shot 2021-10-26 at 7.40.32 PM.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">devCodeCamp Capstone Project</h5>
-                  <p class="card-text">For my capstone project I decided to make a prototype site for my Real Estate Brokerage.</p>
-                  <a href="https://github.com/sebastianmaxwell1/RappaRealEstateGroup_Capstone_Project.git" class="btn btn-primary">See on Github</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div class="card" style="width: 18rem;">
-                <img src="./Assets/rappawp.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Rappa Realty Group Wordpress</h5>
-                  <p class="card-text">Real Estate Brokerage website that supports IDX.</p>
-                  <a href="https://rapparealty.com/" class="btn btn-primary">Visit Rappa Realty Group</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div class="card"style="width: 18rem;">
-                <img src="./Assets/covawp.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Cova Floor Coatings</h5>
-                  <p class="card-text">Local Flooring company along the Tresure Coast, FL.</p>
-                  <a href="http://covafloorcoatings.com/" class="btn btn-primary">Visit Cova Floor Coatings</a>
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>
+        <div id="footer" class="footer">
+            <p>Author: Sebastian Maxwell</p>
+            <p><a href="mailto:sebastianrmaxwell@gmail.com">sebastianrmaxwell@gmail.com</a></p>
+        </div>
 
-
-
-
-
-   
     
 
-   
+
 
        
 
 
 
 
-
-
-
+   
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
