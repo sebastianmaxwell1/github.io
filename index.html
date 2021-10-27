@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./Contact Form/contactform.css">
+
     <title>Sebastian's Portfolio</title>
 </head>
 <body>
@@ -76,10 +78,62 @@
             </div>
             </div>
     </div>
-        <div id="footer" class="footer">
-            <p>Author: Sebastian Maxwell</p>
-            <p><a href="mailto:sebastianrmaxwell@gmail.com">sebastianrmaxwell@gmail.com</a></p>
+
+    <div class="float-container">
+        <div class="float-child">
+            <div class="section" id="contacts">
+                <h1><span>Follow Me</span></h1>
+                <div>
+                    <a href="https://www.instagram.com/sebastianmaxwell/" target="_blank">
+                    <img alt="Instagram" src="https://img.icons8.com/cute-clipart/100/instagram-new.png"/>
+                    </a>
+                    <a href="https://www.facebook.com/sebastian.maxwell.33/">
+                    <img alt="facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png" />
+                    </a>
+                    <a href="https://github.com/sebastianmaxwell1">
+                    <img alt="GitHub" src="https://img.icons8.com/nolan/144/github.png"/>
+                    </a>
+                </div>
+            </div>
         </div>
+            <div class="float-child">
+                <div class="bg-contact3" style="background-image: url('images/bg-01.jpg');">
+                    <div class="container-contact3">
+                        <div class="wrap-contact3">
+                            <form class="contact3-form validate-form">
+                                <span class="contact3-form-title">
+                                    Contact Sebastian
+                                </span>
+
+
+                                <div class="wrap-input3 validate-input" data-validate="Name is required">
+                                    <input class="input3" type="text" name="name" placeholder="Your Name">
+                                    <span class="focus-input3"></span>
+                                </div>
+
+                                <div class="wrap-input3 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                                    <input class="input3" type="text" name="email" placeholder="Your Email">
+                                    <span class="focus-input3"></span>
+                                </div>
+                                <div class="wrap-input3 validate-input" data-validate = "Message is required">
+                                    <textarea class="input3" name="message" placeholder="Your Message"></textarea>
+                                    <span class="focus-input3"></span>
+                                </div>
+
+                                <div class="container-contact3-form-btn">
+                                    <button class="contact3-form-btn" onclick="document.getElementById('contact-form').submit();">Submit</a>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+         <!-- <div id="footer" class="footer">
+           
+         </div> -->
+        
 
     
 
@@ -96,5 +150,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="js/contactform.js"></script>
 </body>
 </html>
