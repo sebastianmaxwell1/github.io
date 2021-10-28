@@ -16,7 +16,6 @@ html {
     border: 0.1em solid black;
     border-radius: 0.38em;
     background-color: dimgray;
-    align-items: center;
   }
   .btn.btn-primary:hover {
     background-color: lightgreen;
@@ -50,10 +49,20 @@ html {
     margin: 0 0 10px 0;
   }
 
+  h5 {
+    font-size: 10px;
+    font-size: medium;
+    font-weight: 800;
+    color: forestgreen;
+  }
+
+
   p {
     padding: 0;
     margin: 0;
     color: #000000;
+    color: darkslategrey;
+    font-weight: 600;
   }
 
   .img-circle {
@@ -101,6 +110,13 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(24, 23, 23);
+  }
+
+  .header-logo {
+      float:right;
+      width: 120px;
+      height: 110px; 
+      border-radius: 50%;   
   }
 
   .nav-pills .nav-link.active {
@@ -169,6 +185,46 @@ html {
     /* opacity: 0.9; */
     box-sizing: border-box;
     width: 47%;
+}
+
+
+
+
+
+/* /////////////////////////////Projects/////////////////////////// */
+
+.section1 {
+  background-color: #7B7B7C;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  opacity: 0.9;
+  
+  
+}
+
+.section2 {
+  background-color: #7B7B7C;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  opacity: 0.9;
+  
+  
+}
+
+.section3 {
+  background-color: #7B7B7C;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  opacity: 0.9;
+  
+  
+}
+
+.card-deck{
+  border-radius: 30px;
 }
 
 
