@@ -3,6 +3,12 @@ html {
     padding: 0;
   }
 
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
+
 /* Buttons */
 .btn.btn-primary {
     font-size: 12px;
@@ -101,6 +107,16 @@ html {
     margin-bottom: 10px;
     border-radius: 30px;
     opacity: 0.9;
+}
+
+@media (min-width: 1200px){
+  .about-section {
+    background-color: gainsboro;
+    padding: 60px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    opacity: 0.9;
+}
 }
 
 
