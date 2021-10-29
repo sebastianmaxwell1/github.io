@@ -49,6 +49,14 @@ html {
     margin: 0 0 10px 0;
   }
 
+  /* .comp-pro.h2{
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+  } */
+
   h5 {
     font-size: 10px;
     font-size: medium;
@@ -89,7 +97,7 @@ html {
 
 .about-section {
     background-color: gainsboro;
-    padding: 20px;
+    padding: 60px;
     margin-bottom: 10px;
     border-radius: 30px;
     opacity: 0.9;
@@ -110,6 +118,19 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(24, 23, 23);
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 500px) {
+    #header {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
   }
 
   .header-logo {
@@ -172,6 +193,8 @@ html {
   #contacts {
     text-align: center;
   }
+
+
 
 
   /* ////////////////////////About Me Page////////////////////////// */
